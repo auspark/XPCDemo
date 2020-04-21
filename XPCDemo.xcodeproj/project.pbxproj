@@ -15,6 +15,7 @@
 		31247437244E8DA100CE23AD /* XPCService.m in Sources */ = {isa = PBXBuildFile; fileRef = 31247436244E8DA100CE23AD /* XPCService.m */; };
 		31247439244E8DA100CE23AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 31247438244E8DA100CE23AD /* main.m */; };
 		3124743D244E8DA100CE23AD /* XPCService.xpc in Embed XPC Services */ = {isa = PBXBuildFile; fileRef = 31247432244E8DA100CE23AD /* XPCService.xpc */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		31247443244EC02E00CE23AD /* Readme.txt in Resources */ = {isa = PBXBuildFile; fileRef = 31247442244EC02E00CE23AD /* Readme.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		31247436244E8DA100CE23AD /* XPCService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPCService.m; sourceTree = "<group>"; };
 		31247438244E8DA100CE23AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3124743A244E8DA100CE23AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31247442244EC02E00CE23AD /* Readme.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				31247425244E8D3000CE23AD /* Info.plist */,
 				31247426244E8D3000CE23AD /* main.m */,
 				31247428244E8D3000CE23AD /* XPCDemo.entitlements */,
+				31247442244EC02E00CE23AD /* Readme.txt */,
 			);
 			path = XPCDemo;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31247443244EC02E00CE23AD /* Readme.txt in Resources */,
 				31247421244E8D3000CE23AD /* Assets.xcassets in Resources */,
 				31247424244E8D3000CE23AD /* Main.storyboard in Resources */,
 			);
