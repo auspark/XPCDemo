@@ -32,6 +32,8 @@
     [[_connectionToService remoteObjectProxy] upperCaseString:@"hello" withReply:^(NSString *aString) {
         NSLog(@"Result string was: %@", aString);
     }];
+    
+    
 }
 
 
